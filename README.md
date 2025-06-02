@@ -25,6 +25,7 @@ Developed by: Reshma R
 RegisterNumber:  212224040274
 */
 ```
+```
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier,plot_tree
 from sklearn.preprocessing import LabelEncoder
@@ -54,6 +55,7 @@ print("Accuracy:",accuracy)
 plt.figure(figsize=(12,8))
 plot_tree(dt,feature_names=features,class_names=["Not Left","Left"],filled=True)
 plt.show()
+```
 ## Output:
 ![Screenshot 2025-04-22 194522](https://github.com/user-attachments/assets/a6ede654-7cd3-4aeb-9a69-d165e8efb1e2)
 ![Screenshot 2025-04-22 194532](https://github.com/user-attachments/assets/986febcd-eebe-46aa-9592-faf8a2f3fc51)
